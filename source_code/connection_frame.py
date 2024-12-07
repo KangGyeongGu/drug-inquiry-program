@@ -15,7 +15,7 @@ class ConnectionFrame(tk.Frame):
 
     def create_widgets(self):
         labels = ["호스트:", "포트:", "데이터베이스:", "사용자 이름:", "비밀번호:"]
-        defaults = ["localhost", "3306", "강경구", "root", ""]
+        defaults = ["", "", "", "", ""]
         self.entries = {}
 
         for i, (label_text, default) in enumerate(zip(labels, defaults)):
