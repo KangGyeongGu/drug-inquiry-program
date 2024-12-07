@@ -32,6 +32,23 @@
 ---
 
 ## 파일 구성 및 기능
+```bash
+drugprogram/
+├── __pycache__/     
+├── build/            
+├── dist/            
+│   └── main.exe       # 실행 가능한 단일 EXE 파일
+├── source_code/       
+│   ├── main.py              # 프로그램 진입점
+│   ├── connection_frame.py  # 데이터베이스 연결 UI
+│   ├── database.py          # 데이터베이스 연결 및 쿼리 실행 모듈
+│   ├── main_frame.py        # 메인 UI 및 검색/관리 기능
+│   ├── view_details.py      # 약물 상세 정보 조회 UI
+│   ├── add_drug.py          # 약물 추가 UI
+│   ├── edit_drug.py         # 약물 수정 UI
+│   ├── delete_drug.py       # 약물 삭제 처리
+├── README.md                # 프로그램 설명 파일
+```
 
 ### 1. `main.py`
 프로그램의 시작점으로, 전체 응용 프로그램의 메인 프레임을 실행합니다.
